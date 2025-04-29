@@ -1,4 +1,4 @@
-type UsdcTransfer @entity {
+type LuksoTransfer @entity {
   id: ID!
   block: Int!
   from: String! @index
