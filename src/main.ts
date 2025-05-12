@@ -26,7 +26,7 @@ const processor = new EvmBatchProcessor()
   // (including unfinalized blocks) in real time. It can also be used to
   //   - make direct RPC queries to get extra data during indexing
   //   - sync a squid without a gateway (slow)
-  .setRpcEndpoint("https://rpc.mainnet.lukso.network")
+  // .setRpcEndpoint("https://rpc.mainnet.lukso.network")
   // The processor needs to know how many newest blocks it should mark as "hot".
   // If it detects a blockchain fork, it will roll back any changes to the
   // database made due to orphaned blocks, then re-run the processing for the
