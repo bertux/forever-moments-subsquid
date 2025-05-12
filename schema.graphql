@@ -1,4 +1,4 @@
-type LuksoTransfer @entity {
+type LikesTransfer @entity {
   id: ID!
   block: Int!
   from: String! @index

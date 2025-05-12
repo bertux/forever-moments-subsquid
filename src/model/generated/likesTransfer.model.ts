@@ -1,8 +1,8 @@
 import {Entity as Entity_, Column as Column_, PrimaryColumn as PrimaryColumn_, IntColumn as IntColumn_, StringColumn as StringColumn_, Index as Index_, BigIntColumn as BigIntColumn_} from "@subsquid/typeorm-store"
 
 @Entity_()
-export class LuksoTransfer {
-    constructor(props?: Partial<LuksoTransfer>) {
+export class LikesTransfer {
+    constructor(props?: Partial<LikesTransfer>) {
         Object.assign(this, props)
     }
 

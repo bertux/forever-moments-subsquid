@@ -1,1 +1,1 @@
-export * from "./luksoTransfer.model"
+export * from "./likesTransfer.model"
